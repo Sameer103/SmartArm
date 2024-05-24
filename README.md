@@ -1,2 +1,3 @@
 # SmartArm
-Bandit-Based-Contextual-Recommender  pen_spark
+Multi-Armed Bandits with Per-Arm Features to create the recommendation system
+
