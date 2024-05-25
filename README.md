@@ -13,8 +13,8 @@ This project aims to develop and deploy a Proof-of-Concept (POC) recommender sys
 ## Technical Approach:
 
 * Multi-Armed Bandits (MAB) with Per-Arm Features: This RL technique allows us to make optimal decisions among multiple choices (templates) with unknown rewards (user interactions).
-** Each template (arm) will be characterized by features like type (upsell, discount) and user attributes (age, gender).
-** The system will learn which features are most likely to lead to desired outcomes (clicks, purchases) over time.
+1. Each template (arm) will be characterized by features like type (upsell, discount) and user attributes (age, gender).
+2.  The system will learn which features are most likely to lead to desired outcomes (clicks, purchases) over time.
 * Machine Learning Libraries: We will leverage Python libraries like scikit-learn or TensorFlow Bandit for MAB algorithms and model development.
 * Cloud Deployment (Optional): For initial POC, a lightweight solution might suffice. However, consider deploying the model on a scalable platform like AWS SageMaker for future production use.
   
